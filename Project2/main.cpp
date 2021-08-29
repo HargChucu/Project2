@@ -19,7 +19,7 @@ void Board::add(const char* ca) {
 void Board::print() {
     cout << "----------게시판입니다----------" << endl;
     for (int i = 0; i < index; i++) {
-        cout << s[i] << endl;
+        cout << i << ":" << s[i] << endl;
     }
 }
 int main() {
